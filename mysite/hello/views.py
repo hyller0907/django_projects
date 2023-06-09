@@ -11,7 +11,7 @@ def myview(request):
     # Se o cliente esta visitando o nosso site pela primeira vez e nao possui cookie
     if trigger_check is None:
         # Initiating the cookie
-        resp = HttpResponse('view count=')
+        resp = HttpResponse('view count=' + str(trigger_check))
         resp.set_cookie('num_visits', 1)
 
         # The assignment ask to add anothe cookie
