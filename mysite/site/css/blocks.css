@@ -1,0 +1,48 @@
+#one {
+    width: 25%;
+    margin: 5px;
+    border: 5px blue solid;
+    padding: 5px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+#two {
+    width: 25%;
+    margin: 5px;
+    border: 5px darkgreen solid;
+    padding: 5px;
+    position: fixed;
+    right: 5px;
+    top: 5px;
+
+}
+
+#three {
+    width: 25%;
+    margin: 5px;
+    border: 5px orange solid;
+    padding: 5px;
+    position: fixed;
+    top: 5px;
+}
+
+#four {
+    width: 25%;
+    margin: 5px;
+    border: 5px yellow solid;
+    padding: 5px;
+    position: fixed;
+    bottom: 5px;
+}
+
+a {
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: fixed;
+    left: 50%;
+    top: 5px;
+}
